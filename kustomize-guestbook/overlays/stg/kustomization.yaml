@@ -1,8 +1,6 @@
 namePrefix: stg-
-labels:
-- includeSelectors: true
-  pairs:
-    env: stg
+commonLabels:
+  env: stg
 namespace: stg
 resources:
 - ../../base

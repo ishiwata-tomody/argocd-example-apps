@@ -1,8 +1,6 @@
 namePrefix: dev-
-labels:
-- includeSelectors: true
-  pairs:
-    env: dev
+commonLabels:
+  env: dev
 namespace: dev
 resources:
 - ../../base
