@@ -1,0 +1,13 @@
+namePrefix: stg-
+labels:
+- includeSelectors: true
+  pairs:
+    env: stg
+namespace: stg
+resources:
+- ../../base
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+images:
+  - name: gcr.io/google-samples/gb-frontend
+    newTag: v5
